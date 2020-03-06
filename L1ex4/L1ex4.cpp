@@ -2,6 +2,7 @@
 #include <cmath>
 #include <iomanip>
 #include <vector>
+#include <cassert>
 
 
 //Hier habe ich eine Funktion, die berechnet den angenäherten Wert der Quadratwurzel einer positiven reellen Zahl.
@@ -78,6 +79,10 @@ int main()
 
     std::cout << "Positiv reel Zahl: ";
     std::cin >> nr;
+
+    //Assert Funktion fur testen, ob den Zahl is positiv.
+    assert(nr > 0);
+
     std::vector <int> vect { 1,3,5,7,9,11,13,15,17,19,21,23,6,2,4,6,8,10,12 };
 
     //4.a.
