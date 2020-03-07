@@ -5,18 +5,19 @@
 #include <cassert>
 
 
-
 //Hier habe ich eine Funktion, die berechnet den angenäherten Wert der Quadratwurzel einer positiven reellen Zahl.
-int quadratwurzel_von_nr(int n)
+
+float quadratwurzel_von_nr(int n)
 { 
     // mit fixed and setprecision kann man der Quadratwurzel von n mit zwei Dezimalen anzeigen
-    std::cout << "Angenaherten Wert der Quadratwurzel von nr: ";
-    std::cout << sqrt(n) << "\n";
     return sqrt(n);
     //std::cout << sqrt(n);
 }
 
-void quadratwurzelTest() {
+//Hier habe ich eine Funktion die testet die quadratwurzel_von_nr Funktion.
+
+void quadratwurzelTest() 
+{
     assert(quadratwurzel_von_nr(36) == 6);
 }
 
@@ -37,6 +38,13 @@ bool ist_prim(int n)
 
     }
     return true;
+}
+
+//Hier habe ich eine Funktion die testet die ist_prim Funktion.
+
+void ist_primTest() 
+{
+    assert(ist_prim(7) == true);
 }
 
 //Hier habe ich eine Funktion,die findet die längste zusammenhängende Teilfolge so, 
@@ -73,13 +81,21 @@ std::vector<int> differenz_primzahl(std::vector <int> v)
         int k = 0;
         for (int i = u - lmax; i <= u; i++)
         {
-            std::cout << v[i] << " ";
             vect.push_back(k);
             vect[k++] = v[i];
         }
     }
     return vect;
 
+}
+
+//Hier habe ich eine Funktion die testet die differenz_primzahl Funktion.
+
+void differenz_primzahlTest()
+{
+    std::vector <int> vect {1, 3, 5, 7, 9, 11, 13, 8, 10, 2, 14};
+    std::vector <int> rez{ 1, 3, 5, 7, 9, 11, 13, 8, 10};
+    assert(differenz_primzahl(vect) == rez);
 }
 int main()
 {
@@ -91,23 +107,31 @@ int main()
     dass die Differenz von zwei aufeinanderfolgenden Elementen eine Primzahl ist.
     */
 
+    quadratwurzelTest();
+    ist_primTest();
+    differenz_primzahlTest();
+
     int nr;
 
     std::cout << "Positiv reel Zahl: ";
     std::cin >> nr;
 
-    //Assert Funktion fur testen, ob den Zahl is positiv.
-    assert(nr > 0);
-
     std::vector <int> vect { 1,3,5,7,9,11,13,15,17,19,21,23,6,2,4,6,8,10,12 };
 
     //4.a.
-    quadratwurzel_von_nr(nr);
+    std::cout << "Angenaherten Wert der Quadratwurzel von nr: ";
+    std::cout<< quadratwurzel_von_nr(nr);
     std::cout << "\n";
 
     //4.b.
+    
     std::cout << "Diese ist die langste zusammenhangende Teilfolge, wo die Differenz von zwei aufeinanderfolgenden Elementen eine Primzahl ist: ";
-    differenz_primzahl(vect);
+    std::vector<int> vect2 = differenz_primzahl(vect);
+    for (int i = 0; i <= vect2.size() - 1; i++)
+    {
+        std::cout << vect2[i] << " ";
+    }
+  
     std::cout << "\n";
 
     return 0;
