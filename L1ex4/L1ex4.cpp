@@ -5,13 +5,19 @@
 #include <cassert>
 
 
+
 //Hier habe ich eine Funktion, die berechnet den angenäherten Wert der Quadratwurzel einer positiven reellen Zahl.
-void quadratwurzel_von_nr(int n)
+int quadratwurzel_von_nr(int n)
 { 
     // mit fixed and setprecision kann man der Quadratwurzel von n mit zwei Dezimalen anzeigen
     std::cout << "Angenaherten Wert der Quadratwurzel von nr: ";
-    std::cout << std::fixed << std::setprecision(2) << sqrt(n) << "\n";
+    std::cout << sqrt(n) << "\n";
+    return sqrt(n);
     //std::cout << sqrt(n);
+}
+
+void quadratwurzelTest() {
+    assert(quadratwurzel_von_nr(36) == 6);
 }
 
 //Hier habe ich eine Funktion, die prüft, ob eine Zahl eine Primzahl ist.
@@ -36,12 +42,12 @@ bool ist_prim(int n)
 //Hier habe ich eine Funktion,die findet die längste zusammenhängende Teilfolge so, 
 //dass die Differenz von zwei aufeinanderfolgenden Elementen eine Primzahl ist.
 
-void differenz_primzahl(std::vector <int> v)
+std::vector<int> differenz_primzahl(std::vector <int> v)
 {
     int l = 0;
     int lmax = 0;
     int u = 0;
-
+    std::vector<int> vect;
 
     for (int i = 1; i <= v.size() - 1; i++)
     {
@@ -58,11 +64,21 @@ void differenz_primzahl(std::vector <int> v)
             l = 0;
     }
     if (u == 0)
+    {
         std::cout << "Es existiert nicht!!!";
+    }
     else
+    {
+        
+        int k = 0;
         for (int i = u - lmax; i <= u; i++)
+        {
             std::cout << v[i] << " ";
-
+            vect.push_back(k);
+            vect[k++] = v[i];
+        }
+    }
+    return vect;
 
 }
 int main()
