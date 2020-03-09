@@ -24,12 +24,24 @@
     <ClCompile Include="L1ex4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="L1ex3Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L1ex3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="L1ex4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="L1ex4Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L1ex3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L1ex3Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
