@@ -60,7 +60,8 @@ int main(){
 	for (int i = pos-1; i < pos + maxLength - 1; i++) {
 		std::cout << a[i]<<" ";
 	}
-
+	
+	std::cout << "\n";
 	//3.a
 	Pascal(5);
 }
