@@ -53,15 +53,6 @@
     <ClInclude Include="L1ex3Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_functii.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_teste.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="L1ex1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
