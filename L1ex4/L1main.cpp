@@ -1,5 +1,6 @@
 #include <iostream>
 #include "L1ex4Main.h"
+#include "L1ex3Main.h"
 
 int main()
 {
@@ -19,7 +20,7 @@ int main()
 		}
 		if (opt == 3)
 		{
-			//main3();
+			main3();
 		}
 		if (opt == 4)
 			break;

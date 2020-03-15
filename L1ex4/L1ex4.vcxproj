@@ -147,11 +147,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="L1ex3.cpp" />
+    <ClCompile Include="L1ex3Main.cpp" />
     <ClCompile Include="L1ex4.cpp" />
     <ClCompile Include="L1main.cpp" />
     <ClCompile Include="L1ex4Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="L1ex3.h" />
+    <ClInclude Include="L1ex3Main.h" />
     <ClInclude Include="L1ex4.h" />
     <ClInclude Include="L1ex4Main.h" />
   </ItemGroup>
