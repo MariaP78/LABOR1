@@ -62,5 +62,14 @@
     <ClInclude Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_teste.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="L1ex1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L1ex1test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L1ex1Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
