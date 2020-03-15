@@ -4,7 +4,7 @@
 int main3() {
 	int opt;
 	while (true) {
-		std::cout << "Wahlen Sie 1 oder 2? \n 1=a \n 2=b \n 3=exit";
+		std::cout << "Was wollen Sie wahlen? \n 1-3.a \n 2-3.b \n 3-exit \n";
 		std::cin >> opt;
 
 		if (opt == 1) {

@@ -9,7 +9,7 @@ int main()
 	
 	while (true)
 	{
-		std::cout << "Wahlen Sie eine Option: \n 1-Problem 1 \n 2-Problem 4 \n 3-Problem 3 \n 4-Exit";
+		std::cout << "Wahlen Sie eine Option: \n 1-Problem 1 \n 2-Problem 4 \n 3-Problem 3 \n 4-Exit \n";
 		std::cin >> opt;
 		if (opt == 1)
 		{

@@ -11,7 +11,7 @@ int main1()
     vector <int> v1, v2, v3;
     while (true)
     {
-        cout << "\n1 - Aufgabe 1.a. (Primzhalen kleiner als n)\n" << "2 - Aufgabe 1.b. (längste ansteigende Teilfolge)\n" << "3 - exit\n" << "Wähle eine Option:";
+        cout << "\n1 - Aufgabe 1.a. (Primzhalen kleiner als n)\n" << "2 - Aufgabe 1.b. (längste ansteigende Teilfolge)\n" << "3 - exit\n" << "Wähle eine Option: \n";
         cin >> opt;
         if (opt == 1)
         {

@@ -23,7 +23,7 @@ int main4()
     {
         std::vector <int> vect{ 1,3,5,7,9,11,13,15,17,19,21,23,6,2,4,6,8,10,12 };
 
-        std::cout << "Wahlen Sie eine option: \n 1-Problem 4.a \n 2-Problem 4.b \n 3-Exit Pb 4";
+        std::cout << "Wahlen Sie eine option: \n 1-Problem 4.a \n 2-Problem 4.b \n 3-Exit Pb 4 \n";
         std::cin >> option;
 
         if (option == 1)
