@@ -1,5 +1,5 @@
 #pragma once
-#include "Lab1_ex1_oop_functii.h"
-#include "Lab1_ex1_oop_teste.h"
+#include "L1ex1.h"
+#include "L1ex1test.h"
 
 int main1();

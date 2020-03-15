@@ -39,6 +39,15 @@
     <ClCompile Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_teste.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="L1ex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L1ex1test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L1ex1Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="L1ex4.h">

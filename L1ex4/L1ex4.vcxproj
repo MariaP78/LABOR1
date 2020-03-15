@@ -150,6 +150,9 @@
     <ClCompile Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_functii.cpp" />
     <ClCompile Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_main.cpp" />
     <ClCompile Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_teste.cpp" />
+    <ClCompile Include="L1ex.cpp" />
+    <ClCompile Include="L1ex1Main.cpp" />
+    <ClCompile Include="L1ex1test.cpp" />
     <ClCompile Include="L1ex3.cpp" />
     <ClCompile Include="L1ex3Main.cpp" />
     <ClCompile Include="L1ex4.cpp" />
