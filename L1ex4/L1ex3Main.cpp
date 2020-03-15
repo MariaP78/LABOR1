@@ -1,16 +1,15 @@
-#include "mainLab1ex3.h"
+#include "L1ex3Main.h"
 
 
 int main3() {
 	int opt;
 	while (true) {
-		std::cout << "Wahlen Sie 1 oder 2? \n 1=a \n 2=b";
+		std::cout << "Wahlen Sie 1 oder 2? \n 1=a \n 2=b \n 3=exit";
 		std::cin >> opt;
 
 		if (opt == 1) {
 			//3.a
 			Pascal(5);
-			return 0;
 		}
 
 		if (opt == 2) {
@@ -19,7 +18,7 @@ int main3() {
 			std::cout << "\n";
 			std::cout << "\n";
 		}
-		if (opt == 4)
+		if (opt == 3)
 			break;
 	}
 

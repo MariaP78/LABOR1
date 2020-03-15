@@ -1,6 +1,7 @@
 #include <iostream>
 #include "L1ex4Main.h"
 #include "L1ex3Main.h"
+#include "L1ex1Main.h"
 
 int main()
 {
@@ -12,7 +13,7 @@ int main()
 		std::cin >> opt;
 		if (opt == 1)
 		{
-			//main1();
+			main1();
 		}
 		if (opt == 2)
 		{

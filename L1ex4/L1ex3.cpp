@@ -1,6 +1,6 @@
-#include "lab1ex3.h"
+#include "L1ex3.h"
 
-bool prim(int x) {
+bool prim3(int x) {
 	//bestimmt ob eine Zahl eine Primzahl ist
 	if (x < 2) {
 		return false;
@@ -15,7 +15,7 @@ bool prim(int x) {
 
 void primTest()
 {
-	assert(prim(7) == true);
+	assert(prim3(7) == true);
 }
 
 void Pascal(int n) {
@@ -40,7 +40,7 @@ void sequenz() {
 	int maxLength = 0;
 	for (int i = 0; i < sizeof(a) / sizeof(int); i++) {
 		//wenn die Zahl eine Primzahl ist wachst die Lange der Sequenz, sonst wird eine neue Sequenz initialisiert
-		if (prim(a[i])) {
+		if (prim3(a[i])) {
 			length++;
 		}
 		else {

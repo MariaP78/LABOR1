@@ -1,4 +1,4 @@
 #pragma once
-#include "lab1ex3.h"
+#include "L1ex3.h"
 
 int main3();
