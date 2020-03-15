@@ -147,6 +147,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_functii.cpp" />
+    <ClCompile Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_main.cpp" />
+    <ClCompile Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_teste.cpp" />
     <ClCompile Include="L1ex3.cpp" />
     <ClCompile Include="L1ex3Main.cpp" />
     <ClCompile Include="L1ex4.cpp" />
@@ -154,6 +157,9 @@
     <ClCompile Include="L1ex4Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_functii.h" />
+    <ClInclude Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_main.h" />
+    <ClInclude Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_teste.h" />
     <ClInclude Include="L1ex3.h" />
     <ClInclude Include="L1ex3Main.h" />
     <ClInclude Include="L1ex4.h" />

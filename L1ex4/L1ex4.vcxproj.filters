@@ -30,6 +30,15 @@
     <ClCompile Include="L1ex3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_functii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_teste.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="L1ex4.h">
@@ -42,6 +51,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="L1ex3Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_functii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\repos\Lab1_ex1_oop\Lab1_ex1_oop_teste.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
